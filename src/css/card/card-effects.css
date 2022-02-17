@@ -1,0 +1,164 @@
+@keyframes cardRotate {
+    0% {
+        transform: rotate3d(0deg);
+    }
+
+    50% {
+        transform: rotate3d(0, 1, 0, 270deg);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+@keyframes movements {
+    0% {
+        transform: scale(1.1, 1) translateY(-100px);
+    }
+    20% {
+        transform: scale(1.1, 0.7) translateY(30px);
+    }
+    40% {
+        transform: scale(1.1, 1) translateY(-60px);
+    }
+
+    60% {
+        transform: scale(1.1, 0.8) translateY(30px);
+    }
+    80% {
+        transform: scale(1.1, 1) translateY(-20px);
+    }
+    90% {
+        transform: scale(1.1, 0.9) translateY(30px);
+    }
+    100% {
+        transform: scale(1.1, 1) translateY(-100px);
+    }
+}
+@keyframes divAnimation {
+    0% {
+        transform: translateX(-200px);
+
+        border-radius: 10px;
+    }
+    100% {
+        transform: translateX(0px);
+        border-radius: 20px;
+    }
+}
+
+@keyframes link {
+    0% {
+        width: 30px;
+        height: 30px;
+    }
+    50% {
+        filter: blur(2px);
+        width: 35px;
+        height: 35px;
+    }
+    100% {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: translate3d(0) translate3d(0);
+    }
+
+    100% {
+        transform: rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        background-position: 10% 0%;
+    }
+    50% {
+        background-position: 91% 100%;
+    }
+    100% {
+        background-position: 10% 0%;
+    }
+}
+
+@keyframes rotateCard {
+    0% {
+        transform: translate3d(0) translate3d(0);
+    }
+    100% {
+        transform: rotate3d(0, 1, 0, 180deg);
+    }
+}
+
+@keyframes pAnimation {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/*Click sul bottone*/
+.card-rotation {
+    animation: cardRotate 2s 1;
+}
+/*Si aggiunge al click*/
+.active {
+    position: relative;
+    left: 95px;
+    width: 30px;
+    height: 28px;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
+    transform: rotate(360deg);
+    z-index: 1;
+}
+
+.editLiStyle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 40%;
+    height: 28px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 6px rgb(0, 0, 0);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 3px rgb(255, 255, 255);
+}
+
+.editSecondLiStyle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 40%;
+    height: 28px;
+    border-radius: 20px;
+    box-shadow: 0px 5px 6px rgb(0, 0, 0);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    overflow: hidden;
+    box-shadow: 0px 0px 4px 4px rgb(0, 0, 0);
+}

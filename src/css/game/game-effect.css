@@ -1,0 +1,121 @@
+@keyframes containerGame {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes squareRotate {
+    0% {
+        transform: rotate(180deg);
+        left: 35px;
+    }
+    10% {
+        transform: rotate(0deg);
+        left: 5px;
+    }
+    90% {
+        transform: rotate(0deg);
+        left: 5px;
+    }
+    100% {
+        transform: rotate(180deg);
+        left: 35px;
+    }
+}
+
+@keyframes eyes1 {
+    0% {
+        height: 10px;
+    }
+    1% {
+        height: 10px;
+    }
+    2% {
+        height: 0px;
+    }
+    3% {
+        height: 10px;
+    }
+    90% {
+        height: 10px;
+    }
+    95% {
+        height: 0px;
+    }
+}
+@keyframes eyes2 {
+    0% {
+        height: 10px;
+    }
+    1% {
+        height: 10px;
+    }
+    2% {
+        height: 0px;
+    }
+    3% {
+        height: 10px;
+    }
+    90% {
+        height: 10px;
+    }
+    95% {
+        height: 0px;
+    }
+}
+
+@keyframes mouth {
+    0% {
+        width: 15px;
+        height: 2px;
+    }
+
+    5% {
+        width: 25px;
+        height: 20px;
+    }
+    10% {
+        width: 15px;
+        height: 1px;
+    }
+    90% {
+        width: 15px;
+        height: 2px;
+    }
+    100% {
+        width: 15px;
+        height: 2px;
+    }
+}
+
+@keyframes pGameOver {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes pStyleJump {
+    0% {
+        text-shadow: 0px 0px 15px rgb(255, 0, 0);
+    }
+
+    50% {
+        text-shadow: 0;
+        color: #000;
+    }
+
+    100% {
+        text-shadow: 0px 0px 15px rgb(255, 0, 0);
+    }
+}

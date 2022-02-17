@@ -1,0 +1,57 @@
+:root {
+    --leftStart: 340px;
+    --leftEnd: -300px;
+}
+
+.square-movements {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    float: left;
+    left: 10px;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+.square-movements-up {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    float: left;
+    left: 10px;
+    bottom: 140px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    transform: rotate(1040deg);
+    transition: all 0.3s ease;
+}
+.customDiv {
+    position: absolute;
+    bottom: 60px;
+    /* width: 20px;
+    height: 60px;
+    background-color: black; */
+    /* transition: left 2s linear; */
+    /* animation: divMovements 2s infinite ease; */
+}
+@keyframes divMovements {
+    0% {
+        left: var(--leftStart);
+    }
+
+    100% {
+        left: var(--leftEnd);
+    }
+}
