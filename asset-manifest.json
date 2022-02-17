@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/FirstReactProject/static/css/main.210573bf.css",
+    "main.js": "/FirstReactProject/static/js/main.c60ba0ed.js",
+    "static/js/787.7cb2e3e1.chunk.js": "/FirstReactProject/static/js/787.7cb2e3e1.chunk.js",
+    "static/media/myEmoji.png": "/FirstReactProject/static/media/myEmoji.a5bef4f66fc4a73a2e00.png",
+    "static/media/foto_mia.jpg": "/FirstReactProject/static/media/foto_mia.8dcaddeda3e8d98d8054.jpg",
+    "static/media/python.png": "/FirstReactProject/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/react.png": "/FirstReactProject/static/media/react.86c8d9eba03e29814d2a.png",
+    "static/media/location.png": "/FirstReactProject/static/media/location.cdac0fc06b0c17cf387e.png",
+    "static/media/nodejs.png": "/FirstReactProject/static/media/nodejs.007e99f68b718e476aba.png",
+    "static/media/coding.png": "/FirstReactProject/static/media/coding.f9558c1aa5813acf2942.png",
+    "static/media/css-3.png": "/FirstReactProject/static/media/css-3.4a6549b8c2b4cda8bb88.png",
+    "static/media/linkedin.png": "/FirstReactProject/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/js.png": "/FirstReactProject/static/media/js.3dfb665e058d08c99f28.png",
+    "index.html": "/FirstReactProject/index.html",
+    "main.210573bf.css.map": "/FirstReactProject/static/css/main.210573bf.css.map",
+    "main.c60ba0ed.js.map": "/FirstReactProject/static/js/main.c60ba0ed.js.map",
+    "787.7cb2e3e1.chunk.js.map": "/FirstReactProject/static/js/787.7cb2e3e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.210573bf.css",
+    "static/js/main.c60ba0ed.js"
+  ]
+}
